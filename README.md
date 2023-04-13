@@ -6,10 +6,10 @@ The intent of this package is to provide a lightweight way to get the official B
 
 You can decide between fetching the full list of holidays with their names in Dutch, French & German, or checking for a specific date.
 
-` new BelgianHolidays().isHoliday(new Date(2023, 0, 1))` will result in `true`
+` isHoliday(new Date(2023, 0, 1))` will result in `true`
 
  
-` new BelgianHolidays().getHolidays(2023)`
+` getHolidays(2023)`
 
 Will result in:
 
