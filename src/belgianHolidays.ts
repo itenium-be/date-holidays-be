@@ -34,6 +34,8 @@ function getWhitMonday(year: number) {
     return whitMonday;
 }
 
+
+/** Get all official Belgian holidays in the provided year */
 export function getHolidays(year: number): Holiday[] {
     return [
         {date: new Date(year, 0, 1), labels: {nl: 'Nieuwjaar', fr: 'Nouvel An', de: 'Neujahr', en: 'New Year\'s Day'}},
@@ -49,6 +51,8 @@ export function getHolidays(year: number): Holiday[] {
     ];
 }
 
+
+/** Returns whether the provided Date is an official Belgian holiday */
 export function isHoliday(date: Date): boolean {
     return getHolidays(date.getFullYear()).some(item => {
         return item.date.getDate() === date.getDate() &&
