@@ -89,9 +89,14 @@ describe('Whit Monday', () => {
     });
 });
 
-describe('Non holidays', () => {
-    test('bulk', () => {
+describe('edge cases', () => {
+    test('returns false when it is not a holiday', () => {
         expect(isHoliday(new Date(2022, 0, 2))).toBeFalsy();
         expect(isHoliday(new Date(2022, 2, 6))).toBeFalsy();
     });
+
+    test('returns false if no date was provided', () => {
+        const noDate = undefined as unknown as Date;
+        expect(isHoliday(noDate)).toBe(false);
+    })
 });

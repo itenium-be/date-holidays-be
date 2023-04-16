@@ -54,6 +54,10 @@ export function getHolidays(year: number): Holiday[] {
 
 /** Returns whether the provided Date is an official Belgian holiday */
 export function isHoliday(date: Date): boolean {
+    if (!date) {
+        return false;
+    }
+
     return getHolidays(date.getFullYear()).some(item => {
         return item.date.getDate() === date.getDate() &&
             item.date.getMonth() === date.getMonth() &&
