@@ -1,20 +1,25 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Node 18",
-
   "compilerOptions": {
-    "lib": ["es2022"],
+    "lib": ["es5", "es6"],
     "module": "commonjs",
-    "target": "es2022",
+    "target": "es5",
+    "sourceMap": true,
 
     "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
 
     "outDir": "dist",
+    "rootDir": "src",
     "declaration": true
   },
-
   "include": ["src/**/*"]
 }
