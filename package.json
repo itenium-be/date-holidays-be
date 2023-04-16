@@ -1,0 +1,38 @@
+{
+  "name": "@itenium/date-holidays-be",
+  "version": "0.0.1",
+  "description": "Package to determine the official Belgian holidays for a given year",
+  "homepage": "https://github.com/itenium-be/date-holidays-be",
+  "bugs": {
+    "url": "https://github.com/itenium-be/date-holidays-be/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itenium-be/date-holidays-be.git"
+  },
+  "keywords": [
+    "Holidays", "Belgium"
+  ],
+  "author": "Itenium",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=16.20.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
