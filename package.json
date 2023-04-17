@@ -22,8 +22,8 @@
   "files": [
     "dist"
   ],
-  "main": "./index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/belgianHolidays.js",
+  "types": "./dist/belgianHolidays.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest --coverage"
