@@ -59,6 +59,7 @@ npm t
 [`date-holidays-be` @ npmjs.com](https://www.npmjs.com/package/@itenium/date-holidays-be)
 
 ```sh
+npm run build
 npm login  # username: itenium
 npm publish --access public
 ```
