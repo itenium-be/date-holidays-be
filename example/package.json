@@ -1,0 +1,15 @@
+{
+    "name": "date-holidays-be-example",
+    "version": "0.0.1",
+    "description": "date-holidays-be example usage",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "itenium",
+    "license": "MIT",
+    "dependencies": {
+        "@itenium/date-holidays-be": "^1.0.0"
+    }
+}

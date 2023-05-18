@@ -12,6 +12,8 @@ npm install --save @itenium/date-holidays-be
 
 ## Use
 
+Also see `/example` dir.
+
 ```js
 import { isHoliday, getHolidays } from '@itenium/date-holidays-be';
 
