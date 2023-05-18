@@ -49,4 +49,16 @@ technical session at itenium.
 ```sh
 npm install
 npm run build
+
+# Run tests
+npm t
+```
+
+### Publish
+
+[`date-holidays-be` @ npmjs.com](https://www.npmjs.com/package/@itenium/date-holidays-be)
+
+```sh
+npm login  # username: itenium
+npm publish --access public
 ```
