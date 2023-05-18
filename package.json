@@ -2,7 +2,7 @@
   "name": "@itenium/date-holidays-be",
   "version": "0.0.2",
   "private": false,
-  "description": "Package to determine the official Belgian holidays for a given year",
+  "description": "Zero dependency functions to determine the official Belgian holidays for a given year in NL/FR/EN/DE",
   "homepage": "https://github.com/itenium-be/date-holidays-be",
   "bugs": {
     "url": "https://github.com/itenium-be/date-holidays-be/issues"
