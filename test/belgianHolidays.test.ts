@@ -1,3 +1,4 @@
+import { describe, test, expect } from 'bun:test';
 import {isHoliday, getHolidays} from '../src/belgianHolidays';
 
 describe('Testing the full Belgian holiday dataset', () => {

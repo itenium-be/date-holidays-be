@@ -1,5 +1,8 @@
 # date-holidays-be
 
+[![CI](https://github.com/itenium-be/date-holidays-be/actions/workflows/ci.yml/badge.svg)](https://github.com/itenium-be/date-holidays-be/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/@itenium/date-holidays-be)](https://www.npmjs.com/package/@itenium/date-holidays-be)
+
 > Provides the official Belgian holidays in NL/FR/DE/EN.
 
 A zero dependency package to get the official Belgian holidays.
@@ -7,7 +10,7 @@ A zero dependency package to get the official Belgian holidays.
 ## Install
 
 ```sh
-npm install --save @itenium/date-holidays-be
+bun add @itenium/date-holidays-be
 ```
 
 ## Use
@@ -49,11 +52,11 @@ technical session at itenium.
 ## Development
 
 ```sh
-npm install
-npm run build
+bun install
+bun run build
 
 # Run tests
-npm t
+bun test
 ```
 
 ### Publish
@@ -61,7 +64,7 @@ npm t
 [`date-holidays-be` @ npmjs.com](https://www.npmjs.com/package/@itenium/date-holidays-be)
 
 ```sh
-npm run build
+bun run build
 npm login  # username: itenium
 npm publish --access public
 ```
