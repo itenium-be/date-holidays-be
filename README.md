@@ -11,6 +11,8 @@ A zero dependency package to get the official Belgian holidays.
 
 ```sh
 bun add @itenium/date-holidays-be
+# or
+npm install --save @itenium/date-holidays-be
 ```
 
 ## Use
