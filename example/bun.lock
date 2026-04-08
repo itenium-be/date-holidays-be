@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "date-holidays-be-example",
+      "dependencies": {
+        "@itenium/date-holidays-be": "^1.0.0",
+      },
+    },
+  },
+  "packages": {
+    "@itenium/date-holidays-be": ["@itenium/date-holidays-be@1.0.0", "", {}, "sha512-UBBtIyc53PcqxctKMLUuQa/CcXtRnleuj/EZUUMihGTVZT4UeIELrJiPU5S/ac/dv37Bh9mxh8Htm65HhgtQsA=="],
+  }
+}
